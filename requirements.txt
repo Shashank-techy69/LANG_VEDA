@@ -3,7 +3,7 @@ fastapi>=0.109.0
 uvicorn[standard]>=0.22.0
 
 # Multilingual embeddings and offline RAG
-chromadb>=0.5.15
+faiss-cpu>=1.7.4
 sentence-transformers>=2.2.2
 numpy>=1.26.4
 pandas>=2.1.0
@@ -18,7 +18,7 @@ openai>=1.7.3
 # File uploads in FastAPI
 python-multipart>=0.0.6
 
-# Speech recognition only (voice input)
+# Speech recognition (voice input)
 SpeechRecognition>=3.9.0
 pydub>=0.25.1
 
