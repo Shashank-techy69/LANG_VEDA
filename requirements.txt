@@ -8,12 +8,9 @@ sentence-transformers>=2.2.2
 numpy>=1.26.4
 pandas>=2.1.0
 
-# Offline LLM
-transformers>=4.42.0
-torch>=2.2.0
-
-# OpenAI API for optional online LLM
+# Online LLM APIs
 openai>=1.7.3
+groq>=0.9.0
 
 # File uploads in FastAPI
 python-multipart>=0.0.6
@@ -28,7 +25,5 @@ langdetect>=1.0.9
 # Environment / config helpers
 python-dotenv>=1.0.0
 
-# steamlit
-streamlit
-
 langchain
+langchain-huggingface

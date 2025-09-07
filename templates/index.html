@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LANG_VEDA Chat</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <main class="chat-container">
+        <header class="chat-header">
+            <h1>📚 LANG_VEDA</h1>
+            <p>Your Multilingual AI Assistant</p>
+        </header>
+        <div class="chat-box" id="chat-box" role="log" aria-live="polite">
+            <!-- Chat messages will be appended here -->
+            <div class="message ai-message">
+                <p>Hello! How can I help you today? Ask me anything about the "Powers of AI" course.</p>
+            </div>
+        </div>
+        <footer class="chat-input">
+            <form id="chat-form">
+                <label for="user-input" class="visually-hidden">Chat Message</label>
+                <input type="text" id="user-input" placeholder="Type your message here..." autocomplete="off" required>
+                <button type="submit" id="send-btn" aria-label="Send message">Send</button>
+            </form>
+        </footer>
+    </main>
+    <script src="/static/script.js"></script>
+</body>
+</html>
