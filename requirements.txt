@@ -27,3 +27,7 @@ langdetect>=1.0.9
 
 # Environment / config helpers
 python-dotenv>=1.0.0
+
+# steamlit
+streamlit
+
