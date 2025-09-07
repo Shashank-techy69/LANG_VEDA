@@ -1,0 +1,29 @@
+# Backend
+fastapi==0.109.0          # API framework
+uvicorn[standard]==0.22.0 # Server to run FastAPI
+
+# Multilingual embeddings and offline RAG
+chromadb==0.5.15
+sentence-transformers==2.2.2
+numpy==1.27.5
+pandas==2.1.0
+
+# Offline LLM support for syllabus/FAQ & basic info
+transformers==4.42.0
+torch==2.2.0
+
+# OpenAI API for online LLM queries
+openai==1.7.3
+
+# File uploads in FastAPI
+python-multipart==0.0.6
+
+# Speech-to-text input only
+SpeechRecognition==3.9.0
+pydub==0.25.1
+
+# Language detection (detect user input language)
+langdetect==1.0.9
+
+# Session / context management helpers
+python-dotenv==1.0.0    # For storing API keys/configs securely
