@@ -1,0 +1,141 @@
+Course Information
+Course Title: Powers of AI
+Course Code: AINT 101
+Institution: SARAS AI INSTITUTE
+Credit Hours: 3
+Duration: 8 weeks
+Engagement Time: 6 hours per week (Total 48 hours)
+L-T-P Equivalent: 3-0-0
+Semesters Offered: January, May, August
+Course Description:
+This course provides a no-code, no-math introduction to AI. It is the first of its kind offered in the university setting. At Saras, students take this course in the first semester, whereas introductory AI courses are typically offered in the sophomore or junior year and require coding, math, and algorithms as prerequisites.
+This course will provide a broad understanding of artificial intelligence, including its historical origins, its technical foundations, its various branches and sub-branches, and the tasks it's capable of, with a focus on machine learning, deep learning, generative AI, and game playing/robotics. In addition to diverse real-world applications, this course will explore the role and impact of AI on our society, including ethical considerations, the job market, and what AI can reveal about human intelligence. The course will conclude by looking into the future of AI and how it may continue to change our world.
+Learning Outcomes
+After successfully completing this course, students will be able to:
+ * Meaningfully describe AI's various dimensions and applications by exploring how major technological, historical, and contemporary factors have impacted its evolution.
+ * Differentiate between AI's personal, enterprise, and governmental use cases while analyzing its opportunities, challenges, and ethical implications.
+ * Describe classical machine learning (ML) techniques and their practical applications across various domains while also differentiating between different ML tasks and model types.
+ * Articulate the difference between machine learning (ML) and deep learning (DL) by exploring the significant factors that contributed to the success of deep learning's ability to solve complex problems in various domains.
+ * Explain how generative AI models work by contextualizing them within the development of other large language models and their different capabilities.
+ * Analyze the integration of various AI systems into robotics and define and assess the feasibility of achieving artificial general intelligence.
+ * Navigate emerging career opportunities in AI and related fields while exploring the latest tools and technologies used in AI development.
+ * Critically evaluate various predictions about AI's future while weighing its potential risks and benefits to society.
+Course Structure and Assessment
+Course Navigation:
+The course is eight weeks long and comprises eight modules, with one module covered each week. Each module consists of:
+ * Videos and Readings: Explore content curated and prepared by experts in the field.
+ * Live Sessions: Participate in live sessions to interact with instructors and peers, ask questions, and deepen understanding.
+ * Discussions: Research, share insights, and engage with peers in forum discussion prompts.
+ * Module Assignments: Apply and demonstrate learning from each module.
+Final Assessment:
+Students will implement what they have learned through a final project. This project will be introduced in Module 5 and due at the conclusion of Module 8.
+Grading Distribution:
+ * Assignments: 40%
+ * Project: 30%
+ * Knowledge Checks: 10%
+ * Discussions: 10%
+ * Live Sessions: 5%
+ * YellowDig Conversations: 5%
+Grading Scheme:
+ * A: >90%
+ * B: >80% and <=90%
+ * C: >70% and <=80%
+ * D: >50% and <=70%
+ * F: <=50%
+ * DL: Temporary grade for incomplete work due to unforeseen circumstances; converted to regular letter grade in the following semester upon completion of unsubmitted graded assessments.
+Detailed Module Breakdown
+Module 1: Defining Intelligence
+ * Section 1: Defining Intelligence
+   * Videos: Traits of Human Intelligence; Psychologists' view of Intelligence; Defining Artificial Intelligence.
+   * Reading: Definitions of Intelligence.
+ * Section 2: Classifying Al
+   * Videos: Narrow vs General Al; Symbolic vs Connectionist Al; Classifying Al Agents.
+   * Reading: Types of Al Agents.
+ * Section 3: A History of AI
+   * Videos: A History of Al: Turing to Machine Learning; A History of Al: Deep Learning and After.
+   * Reading: Brief History of Al.
+ * Section 4: The Turing Test
+   * Videos: The Turing Test; The Reverse Turing Test and CAPTCHAS.
+   * External Videos: Alan Turing - The Imitation Game - Can Machines Think?; Why Captchas Keep Getting More Complicated?
+   * Readings: Turing Test vs Reverse Turing Test; Turing's Original Paper.
+   * Discussion: Relevance of Turing Test.
+ * Module Assignment: Exploring the Turing Test with "Human or Not".
+Module 2: Al Use Cases
+ * Section 1: Personal Use Cases
+   * Videos: Recommender Systems; Al Ethics.
+   * Reading: How are people using Gen Al?
+ * Section 2: Enterprise Use Cases
+   * Videos: Al in Marketing; Al in Finance; Al in HR.
+   * Reading: Most Popular Al Enterprise Use Cases.
+ * Section 3: Government Use Cases
+   * Videos: Governmental Use Cases; Al in Judiciary; Al in Transportation; Ethics of Government Use Cases.
+   * Reading: US Government Use Cases.
+ * Section 4: Untangling Al Use Cases and Ethics
+   * Video: Ethics of Al: Challenges and Governance.
+   * Discussion: Ethics of Self-Driving Cars.
+ * Module Assignment: Ethics of TikTok and Instagram Recommenders.
+Module 3: Machine Learning
+ * Section 1: Foundations of Machine Learning
+   * Video: Foundations of Machine Learning.
+   * External Video: SVM Visually Explained.
+ * Section 2: ML Tasks
+   * Videos: Regression vs Classification Tasks; Clustering and Dimensionality Reduction.
+   * Resource: Additional ML Task Resources.
+ * Section 3: ML Types
+   * Videos: What is a model, and how are they trained?; Supervised Learning and Unsupervised Learning; Reinforcement Learning.
+   * Resource: Types of ML Algorithms.
+ * Section 4: Real-World ML Use-Cases
+   * Videos: Choosing the Right ML Type for a Problem; When ML is not Enough?; Hybrid Use Cases.
+ * Module Assignment: Train Al Model for Classifying Hand Gestures.
+Module 4: Deep Learning
+ * Section 1: The Rise of Deep Learning
+   * Videos: What makes ML Deep?; How Deep Learning Changed Al.
+   * Readings: The Evolution of Deep Learning: A Comprehensive Timeline; Springtime for Al: The Rise of Deep Learning.
+ * Section 2: Reasons for Deep Learning's Success
+   * Videos: Hardware Advances; Abundant Data; Learning with Raw Data.
+   * Reading: A Golden Decade of Deep Learning: Computing Systems & Applications.
+ * Section 3: Neural Networks
+   * Videos: Artificial Neuron; Neural Networks: Shallow and Deep; Types of Deep Learning Models: Convolutional Neural Networks (CNNs); Types of Deep Learning Models: Recurrent Neural Networks (RNNs).
+   * External Videos: Neural Network, Backpropagation and Gradient Descent.
+   * Interactive Visualization: Neural Networks.
+ * Module Assignment: Neural Nets with Tensorflow Playground.
+Module 5: Generative Al
+ * Section 1: Discriminative vs. Generative Al
+   * Videos: Key Differences Between Discriminative and Generative Models; Applications of Generative Al; Generative Adversarial Networks (GANS).
+   * Reading: Deep Dive into Generative Al by IBM.
+ * Section 2: Technical Underpinnings
+   * Videos: Large Language Models; Evolution of GPT family of Models; Attention Mechanism.
+   * External Video: LLMs Explained Visually.
+ * Section 3: Improving and Customizing Generative Al
+   * Videos: Prompt Engineering Basics; Augmentation and Fine-tuning.
+   * Reading: Prompt Engineering Guide by Open AI.
+ * Section 4: Challenges Presented by Generative Al
+   * Video: Ethical Concerns and Bias in Generative Models.
+ * Module Assignment: Voice Cloning Project - Week 1.
+Module 6: Al with Search and Reasoning
+ * Section 1: Autonomous Navigation and Mapping
+   * Videos: Autonomous Navigation; Autonomous Mapping.
+   * Reading: Perception and Navigation in Autonomous Systems in the Era of Learning.
+ * Section 2: Al and Games
+   * Videos: DeepBlue defeats Chess Champion Kasparov; Watson wins Jeopardy!; AlphaGo defeats World Go Champion.
+   * Reading: Original DeepBlue paper.
+ * Section 3: Advanced Reasoning Systems
+   * Video: Theorem Proving.
+   * Reading: Proving theorems with computers.
+ * Module Assignment: Voice Cloning Project - Week 2.
+Module 7: Al Industry Roles and Developer Tools
+ * Section 1: Al Roles in Industry
+   * Videos: Day in the Life Interviews with: Al Engineer, ML Engineer, Data Scientist, Al Product Manager, Cloud Al Solutions Architect, Data Analyst.
+   * Reading: Responsibilities and Skills expected in common Al roles in Industry.
+ * Section 2: Al Developer Tools
+   * Videos: Why is Python so popular in Al?; Scikit-learn; Tensorflow vs PyTorch; Hugging Face vs LangChain.
+   * Reading: Hugging Face VS Langchain: A Comparative Analysis.
+ * Module Assignment: Voice Cloning Project - Week 3.
+Module 8: Al's Role in the Future - Advantages and Risks
+ * Section 1: What is the Future of Al
+   * Videos: Superintelligence; Singularity.
+   * Reading: Potentially Viable Paths to True AGI.
+ * Section 2: Artificial Intelligence Risks to Society
+   * Videos: Bias; Privacy; Dual-Use Technologies.
+   * Reading: Fairness And Bias in Artificial Intelligence: A Brief Survey.
+ * Module Assignment: Voice Cloning Project - Week 4 - Final Project Submission.

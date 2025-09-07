@@ -1,21 +1,21 @@
+import os
 from langchain_community.document_loaders import TextLoader
 from langchain_community.vectorstores import FAISS
-from langchain_community.embeddings import HuggingFaceEmbeddings
-import os
+from sentence_transformers import SentenceTransformer
 
-# Load all text files from data/ folder
+# Load multilingual embeddings model
+embedding_model = SentenceTransformer('sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2')
+
+# Load all text files
 docs = []
 for file in os.listdir("data"):
     if file.endswith(".txt"):
         loader = TextLoader(os.path.join("data", file))
         docs.extend(loader.load())
 
-# Create embeddings
-embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+# Convert documents to embeddings
+db = FAISS.from_documents(docs, embedding_model.encode, normalize=True)
 
-# Create FAISS index
-db = FAISS.from_documents(docs, embeddings)
-
-# Save index locally
+# Save FAISS index
 db.save_local("faiss_index")
-print("✅ Ingestion complete! FAISS index saved.")
+print("✅ Multilingual ingestion complete! FAISS index saved.")
