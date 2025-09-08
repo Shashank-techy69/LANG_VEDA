@@ -118,6 +118,6 @@ if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "chat":
         run_cli_chat()
     else:
-        print("🚀 Starting FastAPI server. Go to http://127.0.0.1:8000")
-        print("💡 To chat in the terminal, run: python main.py chat")
+        print("Starting FastAPI server. Go to http://127.0.0.1:8000")
+        print("To chat in the terminal, run: python main.py chat")
         uvicorn.run(app, host="127.0.0.1", port=8000)

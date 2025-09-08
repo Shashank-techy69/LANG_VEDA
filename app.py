@@ -6,7 +6,7 @@ from langdetect import detect, DetectorFactory
 from dotenv import load_dotenv
 from groq import Groq
 
-st.title("📚 LANG_VEDA – Multilingual Chatbot Demo")
+st.title("LANG_VEDA – Multilingual Chatbot Demo")
 
 # Load environment variables
 load_dotenv()
@@ -55,7 +55,7 @@ db = load_vector_db()
 client = get_groq_client()
 
 if not os.environ.get("GROQ_API_KEY"):
-    st.error("⚠️ GROQ_API_KEY not found. Please add it to your .env file.")
+    st.error(" GROQ_API_KEY not found. Please add it to your .env file.")
 
 query = st.text_input("Ask your question (any supported language):")
 
